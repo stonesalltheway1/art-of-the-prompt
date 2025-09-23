@@ -10,6 +10,7 @@ import { Dialog, DialogContent } from '@/components/ui/dialog'
 const navigation = [
   { name: 'Book', href: '/book' },
   { name: 'Free Chapter', href: '/free-chapter' },
+  { name: 'PDF Downloads', href: '/pdf-downloads' },
   { name: 'Resources', href: '/resources' },
   { name: 'Blog', href: '/blog' },
 ]

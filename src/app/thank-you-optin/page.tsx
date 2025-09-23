@@ -98,6 +98,27 @@ export default function ThankYouOptInPage() {
             </Card>
           </div>
           
+          {/* PDF Downloads Section */}
+          <div className="mt-12 text-center">
+            <Card className="p-8 bg-green-50 border-green-200">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                🎉 Bonus: Professional PDF Collection
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Download beautifully designed PDFs with all your templates, checklists, and guides
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
+                  <Link href="/pdf-downloads">
+                    Download Professional PDFs
+                    <Download className="h-5 w-5 ml-2" />
+                  </Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+
           {/* CTA Section */}
           <div className="mt-12 text-center">
             <Card className="p-8 bg-blue-50 border-blue-200">
