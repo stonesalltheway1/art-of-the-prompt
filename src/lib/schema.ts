@@ -129,6 +129,10 @@ export const articleSchema = (article: {
   author: string
   image?: string
   url: string
+  wordCount?: number
+  readingTime?: string
+  category?: string
+  keywords?: string[]
 }) => ({
   "@context": "https://schema.org",
   "@type": "Article",
@@ -149,7 +153,11 @@ export const articleSchema = (article: {
     }
   },
   "image": article.image || `${process.env.NEXT_PUBLIC_SITE_URL}/images/default-article.jpg`,
-  "url": article.url
+  "url": article.url,
+  ...(article.wordCount && { "wordCount": article.wordCount }),
+  ...(article.readingTime && { "timeRequired": article.readingTime }),
+  ...(article.category && { "articleSection": article.category }),
+  ...(article.keywords && { "keywords": article.keywords.join(", ") })
 })
 
 export const breadcrumbSchema = (items: Array<{name: string, url: string}>) => ({

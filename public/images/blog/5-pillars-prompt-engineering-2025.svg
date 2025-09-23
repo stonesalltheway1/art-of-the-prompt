@@ -1,0 +1,57 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect x="50" y="50" width="1100" height="530" fill="white" stroke="#e5e7eb" stroke-width="2" rx="12"/>
+  
+  <!-- Title -->
+  <text x="600" y="120" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="36" font-weight="bold">
+    The 5 Pillars of Perfect Prompt Engineering
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="160" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="18">
+    Complete Guide 2025
+  </text>
+  
+  <!-- 5 Pillars visualization -->
+  <g transform="translate(200, 220)">
+    <!-- Pillar 1 -->
+    <rect x="0" y="0" width="120" height="160" fill="#dbeafe" stroke="#2563eb" stroke-width="2" rx="8"/>
+    <text x="60" y="30" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="14" font-weight="bold">CLARITY</text>
+    <text x="60" y="50" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="10">Clear</text>
+    <text x="60" y="65" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="10">Context</text>
+    
+    <!-- Pillar 2 -->
+    <rect x="160" y="0" width="120" height="160" fill="#dcfce7" stroke="#16a34a" stroke-width="2" rx="8"/>
+    <text x="220" y="30" text-anchor="middle" fill="#15803d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PRECISION</text>
+    <text x="220" y="50" text-anchor="middle" fill="#15803d" font-family="Arial, sans-serif" font-size="10">Specific</text>
+    <text x="220" y="65" text-anchor="middle" fill="#15803d" font-family="Arial, sans-serif" font-size="10">Instructions</text>
+    
+    <!-- Pillar 3 -->
+    <rect x="320" y="0" width="120" height="160" fill="#fef3c7" stroke="#d97706" stroke-width="2" rx="8"/>
+    <text x="380" y="30" text-anchor="middle" fill="#b45309" font-family="Arial, sans-serif" font-size="14" font-weight="bold">EXAMPLES</text>
+    <text x="380" y="50" text-anchor="middle" fill="#b45309" font-family="Arial, sans-serif" font-size="10">Show Don't</text>
+    <text x="380" y="65" text-anchor="middle" fill="#b45309" font-family="Arial, sans-serif" font-size="10">Just Tell</text>
+    
+    <!-- Pillar 4 -->
+    <rect x="480" y="0" width="120" height="160" fill="#fce7f3" stroke="#db2777" stroke-width="2" rx="8"/>
+    <text x="540" y="30" text-anchor="middle" fill="#be185d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">CONSTRAINTS</text>
+    <text x="540" y="50" text-anchor="middle" fill="#be185d" font-family="Arial, sans-serif" font-size="10">Smart</text>
+    <text x="540" y="65" text-anchor="middle" fill="#be185d" font-family="Arial, sans-serif" font-size="10">Boundaries</text>
+    
+    <!-- Pillar 5 -->
+    <rect x="640" y="0" width="120" height="160" fill="#ede9fe" stroke="#7c3aed" stroke-width="2" rx="8"/>
+    <text x="700" y="30" text-anchor="middle" fill="#6b21a8" font-family="Arial, sans-serif" font-size="14" font-weight="bold">ITERATION</text>
+    <text x="700" y="50" text-anchor="middle" fill="#6b21a8" font-family="Arial, sans-serif" font-size="10">Systematic</text>
+    <text x="700" y="65" text-anchor="middle" fill="#6b21a8" font-family="Arial, sans-serif" font-size="10">Improvement</text>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="600" y="500" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="16">
+    Master the framework that separates professional prompt engineers from casual AI users
+  </text>
+  
+  <!-- Author -->
+  <text x="600" y="540" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    By Eric Keller • The Art of the Prompt
+  </text>
+</svg>

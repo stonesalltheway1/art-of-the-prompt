@@ -197,6 +197,63 @@ html {
   }
 }
 
+/* Enhanced Blog Styles */
+.callout-box {
+  @apply p-6 rounded-lg border-l-4 my-6;
+}
+
+.callout-box.success {
+  @apply bg-green-50 border-green-400 text-green-900;
+}
+
+.callout-box.info {
+  @apply bg-blue-50 border-blue-400 text-blue-900;
+}
+
+.callout-box.warning {
+  @apply bg-yellow-50 border-yellow-400 text-yellow-900;
+}
+
+.example-block {
+  @apply bg-gray-50 p-6 rounded-lg my-6 border;
+}
+
+.example-block h4 {
+  @apply font-semibold text-gray-900 mb-2;
+}
+
+.example-block code {
+  @apply bg-white p-4 rounded border block mt-2 text-sm;
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Enhanced prose styles for blog content */
+.prose h2 {
+  @apply scroll-mt-20;
+}
+
+.prose h3 {
+  @apply scroll-mt-20;
+}
+
+.prose h4 {
+  @apply scroll-mt-20;
+}
+
 /* Print styles */
 @media print {
   .no-print {
