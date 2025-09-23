@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Book icon -->
+  <rect x="10" y="15" width="20" height="30" rx="2" fill="#2563EB" stroke="#1E40AF" stroke-width="1"/>
+  <rect x="15" y="15" width="20" height="30" rx="2" fill="#3B82F6" stroke="#2563EB" stroke-width="1"/>
+  <path d="M25 20 L30 25 L25 30" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Text -->
+  <text x="45" y="25" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1F2937">The Art of</text>
+  <text x="45" y="42" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#2563EB">the Prompt</text>
+</svg>

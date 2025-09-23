@@ -1,0 +1,30 @@
+# Placeholder Images Directory
+
+This directory should contain the following images for the website:
+
+## Required Images:
+- book-cover.jpg (main book cover image)
+- eric-keller.jpg (author photo)
+- og-home.jpg (Open Graph image for home page)
+- og-book.jpg (Open Graph image for book page)
+- og-free-chapter.jpg (Open Graph image for free chapter page)
+
+## Blog Images:
+- blog/5-pillars-perfect-prompt.jpg
+- blog/ai-ethics.jpg
+- blog/prompt-chains.jpg
+
+## Download Files:
+- downloads/starter-pack.pdf
+- downloads/free-chapter.pdf
+- downloads/book-cover-hires.jpg
+- downloads/book-cover-web.jpg
+- downloads/book-cover-thumb.jpg
+- downloads/eric-keller-hires.jpg
+- downloads/eric-keller-web.jpg
+- downloads/press-release.pdf
+- downloads/author-bio-short.txt
+- downloads/author-bio-long.txt
+- downloads/sample-qa.pdf
+
+For now, the website will show broken image placeholders until these files are added.
